@@ -205,10 +205,24 @@
     height: 380px;
     width: 100%;
 }
-
-#detailsColumns{
-    border:#1742b6 2px solid;
-    color: #022faa;
+                                                    /* boxes */
+.details .row #detailsColumns{
+    border-left: 1px solid #0c5dc0;
+    color: #0c5dc0;
+    font-weight: 700;
+    padding: 5px 5px 5px 25px;
+}
+.details .row #detailsColumns:hover .box{
+    opacity: 1;
+}
+.details .row #detailsColumns a{
+    text-decoration: none;
+    color: #3b8df3;
+    font-weight: 600;
+}
+.details .row #detailsColumns:hover{
+    border: 1.5px solid #0c5dc0;
+    border-top: 50px solid #0c5dc0;
 }
 
                                         /* footer */
